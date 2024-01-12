@@ -6,6 +6,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+* {
+    margin: 0;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
@@ -202,7 +206,7 @@ main {
 
 
 /* Footer Section */
-footer{
+footer {
     background: rgba(255, 144, 14, 0.10);
     padding: 40px 410px;
     text-align: center;
@@ -219,7 +223,8 @@ footer{
     nav,
     .teams-container,
     .facts-card-container,
-    .sponsors-img-container, .features {
+    .sponsors-img-container,
+    .features {
         flex-direction: column;
     }
 
@@ -240,9 +245,9 @@ footer{
         margin-left: 0;
     }
 
-    .ten-years-badge{
+    .ten-years-badge {
         position: static;
-        max-width:240px;
+        max-width: 240px;
     }
 
     .teams-content,
@@ -255,7 +260,7 @@ footer{
         gap: 20px;
     }
 
-    footer{
+    footer {
         padding: 20px;
     }
 }
@@ -265,7 +270,8 @@ footer{
 
     nav,
     .teams-container,
-    .sponsors-img-container, .features {
+    .sponsors-img-container,
+    .features {
         flex-direction: column;
     }
 
@@ -285,11 +291,13 @@ footer{
     .teams-img-container img {
         width: 100%;
     }
+
     .feature-img img {
         width: 100%;
         margin-left: 0;
     }
-    footer{
+
+    footer {
         padding: 20px;
     }
 }

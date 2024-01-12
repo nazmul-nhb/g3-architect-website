@@ -124,7 +124,9 @@ main {
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-
+    .teams-img-container img{
+        width:100%;
+    }
 }
 
 /* Tablet Devices */
@@ -139,5 +141,8 @@ main {
     .teams-content {
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .teams-img-container img{
+        width:100%;
     }
 }
